@@ -1,30 +1,21 @@
 const linksData = [
   {
+    href: "/hacklabdog",
+    iconSrc: "/icons/hacklabdog.svg",
+    iconAlt: "HackLabDog Icon",
+    title: "Hacklab my portfolio",
+    description: "In my lab, see my work.",
+    externalIconSrc: "/icons/external-link-icon.svg",
+    externalIconAlt: "Visit HackLabDog"
+  },
+  {
     href: "/dolargaucho",
-    iconSrc: "/dolargaucho.png",
+    iconSrc: "/icons/dolargaucho.svg",
     iconAlt: "Dolar Gaucho Icon",
     title: "Dolar Gaucho",
     description: "Access your Dolar Gaucho account",
     externalIconSrc: "/icons/external-link-icon.svg",
     externalIconAlt: "Visit Dolar Gaucho"
-  },
-  {
-    href: "/portfolio",
-    iconSrc: "/icons/portfolio-icon.svg",
-    iconAlt: "Portfolio Icon",
-    title: "Blog posts",
-    description: "Explore what I strongly believe",
-    externalIconSrc: "/icons/external-link-icon.svg",
-    externalIconAlt: "Visit My Portfolio"
-  },
-  {
-    href: "/hacklabdog",
-    iconSrc: "/icons/hacklabdog-icon.svg",
-    iconAlt: "HackLabDog Icon",
-    title: "Explore my Work",
-    description: "In my lab, hacklab.dog",
-    externalIconSrc: "/icons/external-link-icon.svg",
-    externalIconAlt: "Visit HackLabDog"
   },
   {
     href: "/my-x",

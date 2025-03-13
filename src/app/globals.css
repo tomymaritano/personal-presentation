@@ -24,3 +24,17 @@ body {
   color: var(--foreground);
   font-family: 'Noto Sans JP', sans-serif;
 }
+
+/* Add this to your CSS file or within a <style> tag in your component */
+@keyframes neonBorderRotate {
+  0%, 100% {
+      box-shadow: 0 0 5px #08f, 0 0 15px #08f, 0 0 30px #08f, 0 0 60px #08f;
+  }
+  50% {
+      box-shadow: 0 0 10px #08f, 0 0 20px #08f, 0 0 40px #08f, 0 0 80px #08f;
+  }
+}
+
+.neon-hover-effect {
+  animation: neonBorderRotate 3s infinite alternate;
+}
